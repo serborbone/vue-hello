@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+
+      <title>Hello Vue.js</title>
+
+      <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <div id="vue-root">
+        <div id="style-here">
+
+            <h1>{{ text }}</h1>
+
+            <div class="img-div">
+                <!-- Utilizzo la forma contratta senza specificare l'attributo v-bind -->
+                <img :src='img'>
+            </div>
+
+            <h2></h2>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#style-here {
+  font-family: sans-serif;
+  padding: 50px;
+}
+
+.img-div {
+  width: 500px;
+}
+
+.img-div img {
+  width: 100%;
+}
